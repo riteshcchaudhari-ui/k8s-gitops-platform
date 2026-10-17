@@ -1,0 +1,30 @@
+# dependencies aur build output (image ke andar fresh banenge)
+node_modules
+.next
+out
+coverage
+
+# git aur editor files
+.git
+.gitignore
+.vscode
+.idea
+
+# secrets: should not go inside image
+.env
+.env.*
+!.env.example
+
+# Docker files khud
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+
+# logs aur OS junk
+npm-debug.log*
+yarn-error.log*
+*.log
+.DS_Store
+
+# docs
+*.md
