@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kubeconfig*
+.terraform/
+*.tfstate*
+node_modules/
+.DS_Store
